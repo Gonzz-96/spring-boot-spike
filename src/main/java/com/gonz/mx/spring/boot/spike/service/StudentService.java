@@ -4,6 +4,7 @@ import com.gonz.mx.spring.boot.spike.dao.StudentDao;
 import com.gonz.mx.spring.boot.spike.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Collection;
 
@@ -22,5 +23,9 @@ public class StudentService {
 
     public Student getStudentById(int id) {
         return studentDao.getStudentById(id);
+    }
+
+    public void removeStudentById(int id) {
+        studentDao.removeStudentById(id);
     }
 }
