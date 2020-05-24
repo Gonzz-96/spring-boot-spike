@@ -11,6 +11,8 @@ import java.util.Map;
 // It will maintain the connection with the data sources.
 // In this case, we are using fake data.
 
+// @Component is a very generic annotation
+// Spring will inject all the dependencies.
 @Repository
 public class StudentDao {
 
