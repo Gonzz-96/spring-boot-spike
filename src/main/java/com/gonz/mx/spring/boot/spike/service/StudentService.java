@@ -5,6 +5,7 @@ import com.gonz.mx.spring.boot.spike.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Collection;
 
@@ -31,5 +32,9 @@ public class StudentService {
 
     public void updateStudent(Student newStudent) {
         studentDao.updateStudent(newStudent);
+    }
+
+    public void insertStudent(Student newStudent) {
+        studentDao.insertStudent(newStudent);
     }
 }
