@@ -39,4 +39,11 @@ public class StudentDao {
     public void removeStudentById(int id) {
         students.remove(id);
     }
+
+    public void updateStudent(Student newStudent) {
+        Student  student = students.get(newStudent.getId());
+        student.setCourse(newStudent.getCourse());
+        student.setName(newStudent.getName());
+        students.put(student.getId(), student);
+    }
 }

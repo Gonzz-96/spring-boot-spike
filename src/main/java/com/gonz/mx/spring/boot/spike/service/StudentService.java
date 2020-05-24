@@ -28,4 +28,8 @@ public class StudentService {
     public void removeStudentById(int id) {
         studentDao.removeStudentById(id);
     }
+
+    public void updateStudent(Student newStudent) {
+        studentDao.updateStudent(newStudent);
+    }
 }

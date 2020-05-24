@@ -3,10 +3,8 @@ package com.gonz.mx.spring.boot.spike.controller;
 import com.gonz.mx.spring.boot.spike.entity.Student;
 import com.gonz.mx.spring.boot.spike.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
@@ -48,5 +46,13 @@ public class StudentController {
             @PathVariable("id") int id
     ) {
         studentService.removeStudentById(id);
+    }
+
+    // The @RequestBody annotation will give us access
+    // to the body of the request.
+    // We need to tell Spring that this method will consume a JSON
+    @RequestMapping(method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void updateStudent(@RequestBody Student newStudent) {
+        studentService.updateStudent(newStudent);
     }
 }
