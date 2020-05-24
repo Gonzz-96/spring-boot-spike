@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c839f361-d3fe-4a2f-ad0e-0bfe2a7fb75c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +13,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +34,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,5 +50,20 @@
       <updated>1590292872528</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1147" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1590293239652">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1147" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1590293239652" />
+    <state x="-1147" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1590293220708" />
+    <state x="-1472" y="121" key="SettingsEditor" timestamp="1590293018503">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1472" y="121" key="SettingsEditor/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1590293018503" />
+    <state x="-1297" y="239" key="search.everywhere.popup" timestamp="1590293236072">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1297" y="239" key="search.everywhere.popup/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1590293236072" />
   </component>
 </project>
